@@ -48,3 +48,24 @@ It detects emotions, sentiment, or toxicity in text input and replies with carin
 ```bash
 git clone https://github.com/YOUR_USERNAME/mental-health-assistant.git
 cd mental-health-assistant
+
+### 2. Install dependencies
+bash
+Copy
+Edit
+npm install
+
+### 3. Add your Hugging Face API key
+Open App.js, and replace the placeholder key:
+
+js
+Copy
+Edit
+Authorization: 'Bearer YOUR_HUGGINGFACE_API_KEY',
+Get your token here: https://huggingface.co/settings/tokens
+
+### 4. Run the app
+bash
+Copy
+Edit
+npm start
